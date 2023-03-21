@@ -14,3 +14,4 @@ long long lli;
 long li;
 printf("Size of a char: %i byte(s)\n", sizeof(char));
 return (0);
+}
