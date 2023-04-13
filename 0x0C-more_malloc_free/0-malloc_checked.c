@@ -16,5 +16,5 @@ if (pointer == NULL)
 printf("Error: malloc failed\n");
 exit(98);
 }
-return (pointter);
+return (pointer);
 }
