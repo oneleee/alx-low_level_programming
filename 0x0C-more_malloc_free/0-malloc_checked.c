@@ -9,12 +9,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
-void *ptr;
-ptr = malloc(b);
-if (ptr == NULL)
+void *pointer;
+pointer = malloc(b);
+if (pointer == NULL)
 {
 printf("Error: malloc failed\n");
 exit(98);
 }
-return (ptr);
+return (pointter);
 }
